@@ -1,4 +1,4 @@
-export default function initTab() {
+export function initTab() {
     const tabMenu = document.querySelectorAll('[data-tab="menu"] li');
     const tabContent = document.querySelectorAll('[data-tab="content"] section');
     const classActive = "ativo";

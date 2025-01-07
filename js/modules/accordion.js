@@ -1,4 +1,4 @@
-export default function acordion() {
+export function acordion() {
     const listaAccordion = document.querySelectorAll('[data-anime="accordion"] dt');
     const classActive = "ativo";
   
