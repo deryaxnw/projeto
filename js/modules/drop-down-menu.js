@@ -20,6 +20,7 @@ export function DropDown() {
     html.addEventListener("click", handleOutsideClick);
     function handleOutsideClick(e) {
       if (!element.contains(e.target)) {
+        html.removeEventListener("click", handleOutsideClick);
           callback();
 
       }
