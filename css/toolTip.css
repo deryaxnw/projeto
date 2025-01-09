@@ -1,0 +1,12 @@
+.tooltip {
+    position: absolute;
+    z-index: 500;
+    background: rgb(0, 0, 0, .6);
+    box-shadow: 0, 0, 0, 2px #fb5;
+    padding: .5rem;
+    color: white;
+    max-width: 170px;
+    border-radius: 2px;
+    top: 0;
+    left: 0;
+}
